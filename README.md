@@ -25,9 +25,20 @@ Update the package.json file to include a build script and specify the module ty
 
 ````
 {
+  "name": "typescript",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
   "type": "module",
   "scripts": {
     "build": "tsc"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^20.3.1",
+    "typescript": "^5.1.3"
   }
 }
 `````
